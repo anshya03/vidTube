@@ -2,7 +2,7 @@ VidTube — YouTube-like Backend API
 A production-grade REST API backend built with Node.js, Express, and MongoDB — supporting video upload, comments, likes, subscriptions, and authentication.
 
 🚀 Live Demo
-Base URL: https://your-app.railway.app/api/v1
+**Base URL:** `https://vidtube-production-8382.up.railway.app/api/v1`
 
 🛠 Tech Stack
 
