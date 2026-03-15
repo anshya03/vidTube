@@ -14,6 +14,9 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }))
 app.use(express.static("public"))
 app.use(cookieParser())
 
+app.get("/", (req, res) => {
+  res.send("vidTube backend is running 🚀");
+});
 // Routes
 import healthcheckRouter from "./routes/healthcheck.routes.js"
 import userRouter from "./routes/user.routes.js"
